@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.product {
+    position: relative;
+}
+
+
+
+.discount {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+.eco {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    background-color: green;
+    color: white;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+.heart {
+    position: absolute;
+    top: 4%;
+    left: 48.7%;
+    background-color: white;
+    padding: 0.5em;
+    font-size: 2em;
+}
