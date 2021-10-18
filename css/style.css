@@ -40,7 +40,7 @@ html {
 }
 
 .product_img:hover .alt_img {
-    display: inline;
+    display: inline-block;
 }
 
 .label {
