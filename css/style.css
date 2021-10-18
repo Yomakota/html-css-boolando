@@ -14,14 +14,19 @@ html {
 }
 
 .product {
+    width: calc (1200px / 3 - 240px);
+}
+
+.product_img {
     position: relative;
+    width: 100%;
 }
 
 
 
 .discount {
     position: absolute;
-    bottom: 3%;
+    bottom: 1.5em;
     left: 0;
     background-color: red;
     color: white;
@@ -31,8 +36,8 @@ html {
 
 .eco {
     position: absolute;
-    bottom: 3%;
-    left: 5%;
+    bottom: 1.5em;
+    left: 3.5em ;
     background-color: green;
     color: white;
     padding: 0.4em;
@@ -41,8 +46,8 @@ html {
 
 .heart {
     position: absolute;
-    top: 4%;
-    left: 48.7%;
+    top: 0;
+    left: 18.25em;
     background-color: white;
     padding: 0.5em;
     font-size: 2em;
